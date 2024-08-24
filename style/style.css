@@ -1,0 +1,202 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --colorB: #000;
+    --colorW: #fff;
+}
+
+.dark-mode {
+    --colorB: #fff;
+    --colorW: #000;
+}
+
+header {
+    background-image: url(img/banner\ \(1\).png);
+    background-size: cover;
+    color: #fff;
+    padding-bottom: 20%;
+}
+
+.headerTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.headerTop img {
+    width: 15%;
+}
+
+.redButton {
+    text-decoration: none;
+    color: #fff;
+    background-color: #E40914;
+    padding: 0.75% 1.5%;
+    border-radius: 5px;
+}
+
+header .content {
+    padding: 15% 20% 5% 20%;
+    text-align: center;
+}
+
+header .content h2 {
+    font-size: 5vw;
+}
+header .content .highP {
+    font-size: 2.2vw;
+    margin: 2.5% 0% 5% 0%;
+}
+
+header .content p {
+    font-size: 1.5vw;
+}
+
+.bigButton {
+    justify-content: center;
+    display: flex;
+}
+
+.bigButton a{
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+}
+
+.bigButton input {
+    padding: 1.5% 20% 1.5% 1.5%;
+}
+
+.darkTree {
+    background-color: var(--colorB);
+    color: var(--colorW);
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 2.5%;
+}
+
+.darkTree img {
+    width: 40%;
+}
+
+.darkTree h3 {
+    font-size: 3vw;
+    padding-right: 30%;
+}
+
+.darkTree p {
+    font-size: 1.5vw;
+    padding: 2.5% 30% 0% 0%;
+}
+
+.linha {
+    border: 3px solid #212121;
+}
+
+.darkTree div {
+    padding: 5%;
+}
+
+#reverse div{
+    padding-left: 20%;
+}
+
+#reverse h3 {
+    padding: 0%;
+}
+
+.questions {
+    background-color: var(--colorB);
+    color: #fff;
+    padding: 0% 15%;
+}
+
+.questions p {
+    color: var(--colorW);
+}
+
+.questions h2 {
+    text-align: center;
+    font-size: 3vw;
+    padding: 5% 0%;
+}
+
+.grayBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #303030;
+    padding: 2.5% 3%;
+    margin-bottom: 1%;
+    font-size: 1.5vw;
+}
+
+.grayBox img {
+    width: 2%;
+}
+.questions p {
+    text-align: center;
+}
+
+#pMargin {
+    margin: 7% 0% 3% 0%;
+}
+
+#bigButtonMargin {
+    padding-bottom: 7.5%;
+}
+
+footer {
+    background-color: var(--colorB);
+    color: #414040;
+    padding: 5% 7.5% 2% 7.5%;
+    font-size: 1vw;
+}
+
+.sameLine {
+    display: flex;
+    margin-top: 3%;
+    justify-content: space-between;
+}
+
+.sameLine div {
+    display: grid;
+    gap: 15px;
+}
+
+.language {
+    display: flex;
+    padding: 1% 2%;
+    border: solid 1px #414040;
+    margin: 3% 0;
+    width: 120px;
+    text-align: center;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.options a {
+    display: flex;
+    padding: 1% 2%;
+    border: solid 1px #414040;
+    margin: 3% 0;
+    width: 120px;
+    text-align: center;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    text-decoration: none;
+    color: #414040;
+}
