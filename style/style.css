@@ -200,3 +200,8 @@ footer {
     text-decoration: none;
     color: #414040;
 }
+
+.botaoDark:hover {
+    background-color: var(--colorW);
+    color: var(--colorB);
+}
